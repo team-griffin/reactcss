@@ -4,6 +4,7 @@ import autoprefix from './autoprefix'
 
 export hover from './components/hover'
 export handleHover from './components/hover'
+export focus from './components/focus'
 export handleActive from './components/active'
 export loop from './loop'
 

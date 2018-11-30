@@ -10,7 +10,8 @@ module.exports = {
   '02-react-native': require('./react-native.md'),
   '03-autoprefixing': require('./autoprefixing.md'),
   '04-hover': require('./hover.md'),
-  '05-pseudo-classes': require('./pseudo-classes.md'),
-  '06-media-queries': require('./media-queries.md'),
-  '07-examples': require('./examples.md'),
+  '05-focus': require('./focus.md'),
+  '06-pseudo-classes': require('./pseudo-classes.md'),
+  '07-media-queries': require('./media-queries.md'),
+  '08-examples': require('./examples.md'),
 }
