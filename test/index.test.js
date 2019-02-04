@@ -12,6 +12,24 @@ describe('reactCSS', () => {
           },
         },
       })
+
+      return <div className="body" style={ styles.body } />
+    }
+    const tree = renderer.create(<Component />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+
+  test('should autoprefix css', () => {
+    const Component = () => {
+      const styles = reactCSS({
+        'default': {
+          body: {
+            display: 'flex',
+            transition: '0.3s ease-in-out',
+          },
+        },
+      })
+
       return <div className="body" style={ styles.body } />
     }
     const tree = renderer.create(<Component />).toJSON()

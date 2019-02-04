@@ -3,4 +3,4 @@ id: autoprefixing
 title: Autoprefixing
 ---
 
-ReactCSS parses inline CSS and add vendor prefixes to CSS rules, including: `borderRadius` `boxShadow` `userSelect` `flex` `flexBasis` `justifyContent` `transition` and `transform`
+ReactCSS parses inline CSS and adds vendor prefixes using the awesome [inline-style-prefixer](https://www.npmjs.com/package/inline-style-prefixer).

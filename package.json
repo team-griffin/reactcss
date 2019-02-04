@@ -26,6 +26,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "inline-style-prefixer": "^5.0.3",
     "lodash": "^4.0.1"
   },
   "devDependencies": {
